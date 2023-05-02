@@ -1,7 +1,13 @@
 {
   "name": "Lamatube",
-  "discription": "复刻youtube,实现(login/视频播放/首页),教程来源: https://youtu.be/yIaXoop8gl4",
+  "description": "复刻youtube,实现(login/视频播放/首页),教程来源: https://youtu.be/yIaXoop8gl4",
   "private": true,
+  "keywords": [
+    "youtube",
+    "video",
+    "frontend",
+    "react"
+  ],
   "version": "0.0.0",
   "homepage": "./",
   "main": "main.js",
