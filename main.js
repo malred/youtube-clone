@@ -23,7 +23,7 @@ const createWindow = () => {
     win.loadFile(indexHtml)
     // win.loadURL(`file://${__dirname}/build/index.html`)
     // 打开调试器
-    win.webContents.openDevTools()
+    // win.webContents.openDevTools()
     // 创建托盘,托盘的关闭可以关掉后台 
     createTray(app, win)
 }
