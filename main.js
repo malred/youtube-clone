@@ -5,9 +5,11 @@ const createWindow = () => {
     const win = new BrowserWindow({
         width: 800,
         height: 600,
-        show: false,
+        // show: false,
         icon: "public/app.ico",
         frame: false,
+        fullscreen: true,
+        fullscreenable: true,
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false
